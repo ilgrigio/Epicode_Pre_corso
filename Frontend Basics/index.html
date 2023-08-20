@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body, button {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        div {
+            margin: 1px;
+            padding: 1px;
+        }
+     fieldset {
+        margin: 30px;
+        padding: 50px;
+    }
+     .container {
+        width: 500px;
+        clear: both;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione Music Streaming</title>
+</head>
+<body>
+    <h4 style="text-align: center;">Compila il form ed entra a far parte della nostra Community!</h4>
+    <form onsubmit="alert('I tuoi dati sono stati inviati!')">
+        <fieldset>
+        <div class="container">
+            <input type="text" placeholder="Nome" />
+            <input type="text" placeholder="Cognome" />
+        </div>
+        <div>
+            <label>Inserisci la tua email</label><br />
+            <input type="email" placeholder="email@domain.ext" name="email" value="" required />
+        </div>
+        <div>
+           <label for="password">Scegli una password</label><br />
+           <input type="password" value="" />
+        </div>
+        <div>
+           <label for="data di nascita">Data di nascita</label><br />
+           <input type="date" min="2005-01-01" required />
+        </div>
+        <div>
+            <label for="telefono">Numero di telefono</label><br />
+            <input type="number" id="phone" name="phone" min="7" 
+            onKeyPress="if(this.value.length==11) return false;" />
+  
+        </div>
+        <div>
+            <h3>Generi preferiti</h3>
+        </div>
+        <div>
+            <label>Rock</label>
+            <input type="checkbox" />
+            <label>Pop</label>
+            <input type="checkbox" />
+            <label>R&B</label>
+            <input type="checkbox" />
+            <label>Blues</label>
+            <input type="checkbox" />
+            <label>Country</label>
+            <input type="checkbox" />
+        </div>
+        
+        <div style="margin:50px; padding-left: 80px; padding-right: 150px;">
+            <h4>Termini e condizioni</h4>
+            <p>Informativa resa ai ​sensi degli articoli 13-14 del GDPR 2016/679​ ​(General Data Protection Regulation)
+                Gentile Signore/a,
+                ai sensi dell’art. 13 del Regolamento UE 2016/679 ed in relazione alle informazioni di cui si entrerà in possesso, ai fini della
+                tutela delle persone e altri soggetti in materia di trattamento di dati personali, si informa quanto segue:
+                1. Finalità del Trattamento
+                I dati da Lei forniti verranno utilizzati allo scopo e per il fine di ………………………………………………………………
+                …………………………………………………………………………………………………………....………………………
+                2. Modalità del Trattamento
+                Le modalità con la quale verranno trattati i dati personali contemplano ……………………………………………………
+                ……………………………………………………………………………………………………………………………………
+                3. Conferimento dei dati
+                Il conferimento dei dati per le finalità di cui al punto 1 sono (obbligatori/facoltativi: nel primo caso indicarne il motivo) e
+                l’eventuale rifiuto dell’autorizzazione comporta ……………………………………
+                4. Comunicazione e diffusione dei dati
+                I dati forniti potranno (essere/saranno) comunicati a: ................................................................ . La loro diffusione può
+                essere predisposta presso ...............................................................................................
+                (Se non si prevedono comunicazioni ad altri soggetti né diffusione dei dati inserire: i dati forniti non saranno soggetti a
+                comunicazione né a diffusione)
+                5. Titolare del Trattamento
+                Il titolare del trattamento dei dati personali è …………………………………………………………………………………………
+                ………………………………………………………………………………………………………………………………………
+                (Indicare almeno nome e cognome, se persona fisica, del titolare, domicilio o residenza)
+                6. Diritti dell’interessato
+                In ogni momento, Lei potrà esercitare, ai sensi degli articoli dal 15 al 22 del Regolamento UE n. 2016/679, il diritto di:
+                a) chiedere la conferma dell’esistenza o meno di propri dati personali;
+                b) ottenere le indicazioni circa le finalità del trattamento, le categorie dei dati personali, i destinatari o le categorie di
+                destinatari a cui i dati personali sono stati o saranno comunicati e, quando possibile, il periodo di conservazione;
+                c) ottenere la rettifica e la cancellazione dei dati;
+                d) ottenere la limitazione del trattamento;
+                e) ottenere la portabilità dei dati, ossia riceverli da un titolare del trattamento, in un formato strutturato, di uso comune e
+                leggibile da dispositivo automatico, e trasmetterli ad un altro titolare del trattamento senza impedimenti;
+                f) opporsi al trattamento in qualsiasi momento ed anche nel caso di trattamento per finalità di marketing diretto;
+                g) opporsi ad un processo decisionale automatizzato relativo alle persone siche, compresa la profilazione.
+                h) chiedere al titolare del trattamento l’accesso ai dati personali e la rettifica o la cancellazione degli stessi o la limitazione
+                del trattamento che lo riguardano o di opporsi al loro trattamento, oltre al diritto alla portabilità dei dati;
+                i) revocare il consenso in qualsiasi momento senza pregiudicare la liceità del trattamento basata sul consenso prestato
+                prima della revoca;
+                j) proporre reclamo a un’autorità di controllo.
+                Può esercitare i Suoi diritti con richiesta scritta inviata a ….., all'indirizzo postale della sede legale o all’indirizzo mail ……
+                Io sottoscritto/a dichiaro di aver ricevuto l’informativa che precede.
+                Luogo, lì ….
+                Io sottoscritto/a alla luce dell’informativa ricevuta
+                ◻esprimo il consenso ◻NON esprimo il consenso ​al trattamento dei miei dati personali inclusi quelli considerati come
+                categorie particolari di dati.
+                ◻esprimo il consenso ◻ NON esprimo il consenso alla comunicazione dei miei dati personali d enti pubblici e società di natura
+                privata per le finalità indicate nell’informativa.
+                ◻esprimo il consenso ◻ NON esprimo il consenso ​al trattamento delle categorie particolari dei miei dati personali così come
+                indicati nell’informativa che precede.
+                Autore: Anna Maria D’Andrea</p>
+            <label>Accetto</label>
+            <input type="radio" value="accetto" name="scelta" />
+            <label>Non accetto</label>
+            <input type="radio" value="non accetto" name="scelta"/>
+        </div>
+        <div style="text-align: center;">
+            <button type="submit" onclick="alert('Registrazione inviata!')">INVIA REGISTRAZIONE</button>
+        </div>
+    </fieldset>
+    </form>
+</body>
+</html>
