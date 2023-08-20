@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-section {
+    padding: 20px;
+}
+.image-container {
+    background-image: url(https://www.viaggiamo.it/wp-content/uploads/2020/12/paesaggi-naturali-piu-belli-del-mondo-1.jpg.webp);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 6px;
+}
+.image-container1 {
+    background-image: url(https://www.viaggiamo.it/wp-content/uploads/2020/12/scotland-540119-1280.jpg.webp);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: top;
+    border-radius: 6px;
+}
+.image-container2 {
+    background-image: url(https://www.viaggiamo.it/wp-content/uploads/2020/12/zhangjiajie-4905930-1280.jpg.webp);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+.image-container3 {
+    background-image: url(https://www.viaggiamo.it/wp-content/uploads/2020/12/alberta-2297204-1280.jpg.webp);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: top;
+    border-radius: 6px;
+}
+.image-container4 {
+    background-image: url(https://www.viaggiamo.it/wp-content/uploads/2020/03/portugal-3029665_1920.jpg.webp);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+.image-container5 {
+    background-image: url(https://www.viaggiamo.it/wp-content/uploads/2020/12/namibia-4790487-1280.jpg.webp);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+.image-container6 {
+    background-image: url(https://www.viaggiamo.it/wp-content/uploads/2019/08/grand-canyon-cosa-vedere-in-un-giorno.jpg.webp);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+h1 {
+    font-family: 'Prata', serif;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+h3 {
+    font-family: 'Prata', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h6 {
+    padding: 22px;
+    margin-top: 56px;
+    margin-bottom: 0;
+    color: #fff;
+    border-radius: 6px;
+    background-image: linear-gradient(#887e40, #9d7d6e);
+}
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: #887e40;
+}
+a:hover {
+    color: rgb(190, 3, 3);
+    text-decoration: underline;
+}
+ul {
+    padding: 20px;
+    list-style-type: none; 
+}
+li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border: 0.05em;
+    border-color: #dfdfdf;
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 16px;
+    text-align: center;
+}
+#footer {
+    color: white;
+}
+
