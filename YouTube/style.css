@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+#main {
+    width: 100%;
+}
+#content {
+    height: 100%;
+}
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar-icon {
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebar-icon p {
+    margin: 0;
+}
+.sidebar-icon ion-icon {
+    font-size: 1.5em;
+}
+#topbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+    height: 50%;
+}
+#search-wrapper {
+    display: flex;
+    height: 50%;
+    border: 2px solid #61008e;
+    border-radius: 30px;
+}
+#topbar-icons {
+    display: flex;
+}
+.topbar-icon ion-icon {
+    font-size: 2em;
+    padding: 0 0.3em;
+}
+#mic-icon ion-icon {
+    font-size: 1.7em;
+    margin: -1px 0.5em;
+}
+#search-button {
+    padding: 0 0.6em;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+#text {
+    width: 350px;
+    border: none;
+    margin: 5px;
+}
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 0 16px;
+    justify-content: space-around;
+}
+.ep-thumb img {
+    height: 220px;
+    width: 380px;
+    cursor: pointer;
+}
+.ep-thumb img:hover {
+    opacity: 0.5;
+}  
+.ep-thumb {
+    display: inline;
+    margin: 10px;
+   /* height: 50%; */
+}
+.label {
+    display: flex;
+    flex-direction: column;
+}
+.label h5 {
+    margin: 0;
+    font-size: 1em;
+}
+.label p {
+    margin: 0;
+    font-size: 0.8em;
+}
+.ep-logo img {
+    height: 35px;
+    width: 35px;
+    margin: 0 10px 0 3px;
+}
+.ep-logo {
+    display: flex;
+    margin: 5px auto;
+}
